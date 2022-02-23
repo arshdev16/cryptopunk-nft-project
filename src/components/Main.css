@@ -1,0 +1,68 @@
+.main {
+  margin: 16px 37px;
+  border-bottom: 1px solid #6F6F6E;
+  padding: 5px;
+}
+.selectedPunk {
+  width: 300px;
+  border-radius: 20px;
+}
+.mainContent {
+  display: flex;
+}
+.punkDetails {
+  display: flex;
+  margin: 10px;
+  align-items: flex-start;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+.itemNumber {
+  color: #a0a0ab;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 17px;
+}
+.ownerImage {
+  width: 50px;
+  border-radius: 50%;
+  margin: -5px 15px;
+}
+.allDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex: 1;
+}
+.ownerDetails {
+  align-self: flex-end;
+}
+.owner {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+.ownerNameandHandle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ownerHandle{
+  color: #31838A;
+}
+.SocialMediaImages{
+  align-self: flex-end;
+}
+.image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  border: 2px solid white;
+  padding: 10px;
+}
+.image{
+  margin: 10px;
+}
